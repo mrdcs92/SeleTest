@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2411" started-at="2019-03-22T01:15:38Z" finished-at="2019-03-22T01:15:41Z">
+    <groups>
+      <group name="smoke">
+        <method signature="WikiTest.hello()[pri:0, instance:webtests.WikiTest@14acaea5]" name="hello" class="webtests.WikiTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="2411" started-at="2019-03-22T01:15:38Z" finished-at="2019-03-22T01:15:41Z">
+      <class name="webtests.WikiTest">
+        <test-method status="PASS" signature="setUpDriverAndPage()[pri:0, instance:webtests.WikiTest@14acaea5]" name="setUpDriverAndPage" is-config="true" duration-ms="3012" started-at="2019-03-22T01:15:35Z" finished-at="2019-03-22T01:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriverAndPage -->
+        <test-method status="PASS" signature="goToMainPage()[pri:0, instance:webtests.WikiTest@14acaea5]" name="goToMainPage" is-config="true" duration-ms="629" started-at="2019-03-22T01:15:38Z" finished-at="2019-03-22T01:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMainPage -->
+        <test-method status="PASS" signature="hello()[pri:0, instance:webtests.WikiTest@14acaea5]" name="hello" duration-ms="6" started-at="2019-03-22T01:15:39Z" finished-at="2019-03-22T01:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+        <test-method status="PASS" signature="goToMainPage()[pri:0, instance:webtests.WikiTest@14acaea5]" name="goToMainPage" is-config="true" duration-ms="103" started-at="2019-03-22T01:15:39Z" finished-at="2019-03-22T01:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMainPage -->
+        <test-method status="PASS" signature="deutsch()[pri:1, instance:webtests.WikiTest@14acaea5]" name="deutsch" duration-ms="545" started-at="2019-03-22T01:15:39Z" finished-at="2019-03-22T01:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deutsch -->
+        <test-method status="PASS" signature="goToMainPage()[pri:0, instance:webtests.WikiTest@14acaea5]" name="goToMainPage" is-config="true" duration-ms="124" started-at="2019-03-22T01:15:40Z" finished-at="2019-03-22T01:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMainPage -->
+        <test-method status="PASS" signature="italian()[pri:2, instance:webtests.WikiTest@14acaea5]" name="italian" duration-ms="466" started-at="2019-03-22T01:15:40Z" finished-at="2019-03-22T01:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- italian -->
+        <test-method status="PASS" signature="goToMainPage()[pri:0, instance:webtests.WikiTest@14acaea5]" name="goToMainPage" is-config="true" duration-ms="127" started-at="2019-03-22T01:15:40Z" finished-at="2019-03-22T01:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMainPage -->
+        <test-method status="PASS" signature="espanol()[pri:3, instance:webtests.WikiTest@14acaea5]" name="espanol" duration-ms="383" started-at="2019-03-22T01:15:40Z" finished-at="2019-03-22T01:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- espanol -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:webtests.WikiTest@14acaea5]" name="cleanup" is-config="true" duration-ms="632" started-at="2019-03-22T01:15:41Z" finished-at="2019-03-22T01:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- webtests.WikiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
